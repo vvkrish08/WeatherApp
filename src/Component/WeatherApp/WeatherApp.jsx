@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './WeatherApp.css';
+import './WeatherApp.css';b
 
 import clear_icon from "../Asserts/clear.png";
 import cloud_icon from "../Asserts/cloud.png";
@@ -12,7 +12,7 @@ import wind_icon from "../Asserts/wind.png";
 
 const WeatherApp = () => {
   
-    let api_key="7714afa96158d6d610cd083e3175903b";
+    let api_key="7714afa96158d6d610cd083e3175903";
     
    
     const [wicon,setWicon] = useState(cloud_icon);
